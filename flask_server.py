@@ -66,7 +66,7 @@ def password_analysis(user_password):
         grade -= 5
         return_data.append("Password needs more lowercase letters.")
 
-    # TODO Brute Force Algorithm
+    # TODO Brute Force Algorithm (Did not have enough time to complete)
     if not brute_force_check():
         grade -= 20
         flags.append("Brute Force")
